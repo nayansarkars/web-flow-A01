@@ -1,29 +1,160 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+    background: #F5F8FF;
+}
+/* h1, h2, h3, h4, h5, h6 {
+
+} */
+
+/* Section  */
+.section {
+  padding: 100px 0;
+}
+.logo {
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    color: #4E47FF;
+    text-transform: uppercase;
+    line-height: 1.2;
 }
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
+}
+/* Header Styles */
+header {
+    background-image: url('../images/Hero-bg.png');
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
 /* Signup Button Styles */
-.btn_primary{
-    background-color: #4E47FF;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+.btn_primary {
+  background-color: #4e47ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+  border-radius: 10px;
 }
 
-.btn_sign_up:hover {
-    background-color: #0056b3;
+.btn_primary:hover {
+  background-color: #0056b3;
+}
+
+/* Banner Section Styles */
+.banner {
+    margin: 120px auto;
+    max-width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 48px;
+}
+.banner h1{
+color: #252432;
+text-align: center;
+font-family: Raleway;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+/* Action Section Styles */
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.action h2 {
+color: #252432;
+font-family: Raleway;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.action p {
+color: rgba(37, 36, 50, 0.50);
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 125% */
+}
+.action-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+    max-width: 35%;
+}
+.action img {
+border-radius: 48px;
+
+}
+
+/* User Section Style */
+.Users {
+text-align: center;
+border-radius: 24px;
+background: rgba(78, 71, 255, 0.10);
+padding: 50px 80px;
+}
+.Users h2 {
+color: #252432;
+text-align: center;
+font-family: Raleway;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+}
+.user-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 164px;
+}
+
+.user-count h3{
+color: #4E47FF;
+font-family: Inter;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+}
+.user-count p {
+    color: rgba(0, 0, 0, 0.50);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
