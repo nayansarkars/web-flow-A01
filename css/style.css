@@ -227,6 +227,35 @@ color: #B3B3B3;
     display: flex;
     column-gap: 24px;
 }
+/* Get Started style  */
+.get_started {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get_started h2 {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 97px;
+line-height: 1.2;
+color: #000000;
+}
+.get_started form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    column-gap: 16px;
+}
+.get_started form input {
+  padding: 20px 32px;
+width: 497px;
+height: 70px;
+background: #FFFFFF;
+border: 1px solid #D6DDED;
+border-radius: 10px;
+margin-top: 12px;
+}
 
 /* Footer style  */
 .footer {
