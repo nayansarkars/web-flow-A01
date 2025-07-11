@@ -7,10 +7,6 @@ body {
   font-family: "Inter", sans-serif;
     background: #F5F8FF;
 }
-/* h1, h2, h3, h4, h5, h6 {
-
-} */
-
 /* Section  */
 .section {
   padding: 100px 0 50px 0;
@@ -18,7 +14,10 @@ body {
 .section_2 {
   padding: 50px 0 50px 0;
 }
-.logo {
+.section_3 {
+  padding: 50px 0 100px 0;
+}
+.logo a{
     font-family: Inter;
     font-size: 34px;
     font-style: normal;
@@ -26,6 +25,7 @@ body {
     color: #4E47FF;
     text-transform: uppercase;
     line-height: 1.2;
+    text-decoration: none;
 }
 .container {
   width: 80%;
@@ -330,7 +330,13 @@ margin-top: 12px;
 .get_started form .btn-get-in-touch:hover {
   background-color: #0056b3;
 }
-
+.get_started form input,textarea::placeholder {
+  font-family: 'Inter';
+font-weight: 400;
+font-size: 20px;
+line-height: 1.2;
+color: rgba(0, 0, 0, 0.5);
+}
 /* Footer style  */
 .footer {
     background: #ffffff;
