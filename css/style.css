@@ -13,7 +13,10 @@ body {
 
 /* Section  */
 .section {
-  padding: 100px 0;
+  padding: 100px 0 50px 0;
+}
+.section_2 {
+  padding: 50px 0 50px 0;
 }
 .logo {
     font-family: Inter;
@@ -227,6 +230,46 @@ color: #B3B3B3;
     display: flex;
     column-gap: 24px;
 }
+
+/* Ready to focus better style  */
+.ready_to_focus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+border-radius: 14px;
+padding: 71px 150px;
+}
+.ready_to_focus_text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    row-gap: 20px;
+}
+.ready_to_focus h2 {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 120%;
+color: #000000;
+}
+.ready_to_focus p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: rgba(0, 0, 0, 0.5);
+}
+.ready_to_focus img {
+border-radius: 48px;
+margin-top: 20px;
+}
+
+
 /* Get Started style  */
 .get_started {
     display: flex;
@@ -240,12 +283,13 @@ font-weight: 700;
 font-size: 97px;
 line-height: 1.2;
 color: #000000;
+max-width: 35%;
 }
 .get_started form {
     display: flex;
     flex-direction: column;
     align-items: start;
-    column-gap: 16px;
+    row-gap: 19px;
 }
 .get_started form input {
   padding: 20px 32px;
@@ -255,6 +299,36 @@ background: #FFFFFF;
 border: 1px solid #D6DDED;
 border-radius: 10px;
 margin-top: 12px;
+}
+.get_started form textarea {
+padding: 20px 32px;
+width: 497px;
+height: 135px;
+background: #FFFFFF;
+border: 1px solid #D6DDED;
+border-radius: 10px;
+margin-top: 12px;
+}
+.get_started form .btn-get-in-touch {
+  background-color: #4e47ff;
+  color: white;
+  border: none;
+  padding: 19px 101px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+  border-radius: 10px;
+  align-items: center;
+  width: 100%;
+  margin-top: 19px;
+}
+.get_started form .btn-get-in-touch:hover {
+  background-color: #0056b3;
 }
 
 /* Footer style  */
